@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  image-gallery:
+    image: httpd:2.4-alpine
+    container_name: image-gallery-dev
+    ports:
+      - "8080:80"
+    volumes:
+      - ./app:/usr/local/apache2/htdocs:ro
