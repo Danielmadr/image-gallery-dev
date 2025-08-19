@@ -60,7 +60,7 @@ docker-image-gallery/
 ### 1. Clone o Repositório
 
 ```bash
-git clone <URL-do-repositório>
+git clone https://github.com/Danielmadr/image-gallery-dev
 cd image-gallery-dev
 ```
 
